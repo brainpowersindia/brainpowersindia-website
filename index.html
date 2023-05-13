@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="icon" href="img/favicon.png">
+
+    <title>Brain Powers India - Discover Your Inborn Talent</title>
+    <meta name="description"
+        content="Unlock your full potential by identifying your unique strengths and turn them into a roadmap for success.">
+    <meta name="keywords" content="Brainpowersindia, Brainpowersindia Website">
+
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <a href="/">Brain Powers India</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about-us.html">About Us</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="/pricing.html">Pricing</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+
+            </ul>
+        </nav>
+        <div class="menu">
+            <i class="fa-solid fa-bars fa-2xl" id="navOpen" onclick="navOpen()" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-xmark fa-2xl" onclick="navClose()" id="navClose"
+                style="color: #ffffff;display:none;"></i>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile" style="display: none;">
+        <ul>
+            <li><a href="/" onclick="navClose()">Home</a></li>
+            <li><a href="/about-us.html" onclick="navClose()">About Us</a></li>
+            <li><a href="/gallery.html" onclick="navClose()">Gallery</a></li>
+            <li><a href="/pricing.html" onclick="navClose()">Pricing</a></li>
+            <li><a href="/contact.html" onclick="navClose()">Contact Us</a></li>
+        </ul>
+    </div>
+
+
+    <!-- hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Discover Your Inborn Talent</h1>
+            <p>Unlock your full potential by identifying your unique strengths and turn them into a roadmap for
+                success.</p>
+            <a href="/pricing.html" class="btn">Get Started <i class="fa-solid fa-play" style="color: #ffffff;"></i></a>
+        </div>
+        <div class="hero-image">
+            <img src="/img/hero-image.webp" alt="brain powers india">
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section" id="about">
+        <div class="title">
+
+            <h2>How we can help you ?</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <i class="fa-solid fa-magnifying-glass fa-bounce fa-2xl" style="color: #007bff;"></i>
+                <h2>Identifying Strengths and Weaknesses</h2>
+                <p>We help you to find your strengths and weaknesses in different areas such as logical thinking,
+                    creativity, analytical ability, and more. </p>
+            </div>
+            <div class="box">
+
+                <i class="fa-sharp fa-solid fa-user-graduate fa-bounce fa-2xl" style="color: #007bff;"></i>
+                <h2>Enhancing Self-awareness</h2>
+                <p>We can help you to gain a better understanding of yourself, including your personality , learning
+                    style, and preferred work environment. </p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-award fa-bounce fa-2xl" style="color: #007bff;"></i>
+                <h2>Improving Career Success</h2>
+                <p> We can help you for selecting a career path that aligns with your unique strengths and interests.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- clients section -->
+
+    <div class="clients-section" id="clients">
+        <h2>More Than 1000+ Happy Clients</h2>
+        <div class="divider"></div>
+        <div class="clients-container">
+            <div class="client">
+                <img src="/img/dr.mahesh-kulkarni.webp" alt="Client 1">
+                <h3>Dr. Mahesh Kulkarni</h3>
+                <p class="clients-p"> ( MK Smiles Clinic )</p>
+            </div>
+            <div class="client">
+                <img src="/img/subodh-mestry.webp" alt="Client 2">
+                <h3>Mr. Subodh Mestry</h3>
+                <p class="clients-p"> ( Swarajya Infotech )</p>
+            </div>
+            <div class="client">
+                <img src="/img/adv-shashikant-nimbale.webp" alt="Client 3">
+                <h3>Adv. Shashikant Nimbale</h3>
+                <p class="clients-p"> ( Nimbale Associates )</p>
+            </div>
+            <div class="client">
+                <img src="/img/Dr.-priyanka.webp" alt="Client 4">
+                <h3>Dr. Priyanka Chaudhari</h3>
+                <p class="clients-p"> ( Skin Concepts )</p>
+            </div>
+        </div>
+
+        <a href="/gallery.html" class="btn">View More Clients</a>
+
+
+    </div>
+
+    <!-- youtube -->
+
+    <div class="video-section" id="youtube">
+        <h2>What our Clients Says</h2>
+        <div class="divider"></div>
+        <div class="video-container">
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Di8peJE4FUM" frameborder="0"
+                    allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/AgOsPa1ZbDM" frameborder="0"
+                    allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/qni5Kskrlq4" frameborder="0"
+                    allowfullscreen loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <a href="https://www.youtube.com/@Brainpowersindia?sub_confirmation=1" target="_blank">Visit our YouTube
+                Channel</a>
+        </div>
+
+    </div>
+    <!-- footer -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="row">
+                <div class="blocks">
+                    <h3>About Us</h3>
+                    <p>Discovering the talents of every students in India and guiding them on how to pursue their
+                        education and career in their field according to their talents.</p>
+                </div>
+                <div class="blocks">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a class="footer-pages" href="/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a class="footer-pages" href="/terms-and-conditions.html">Terms & Conditions</a></li>
+                        <li><a class="footer-pages" href="/return-and-refund-policy.html">Return and Refund Policy</a>
+                        </li>
+                        <li><a class="footer-pages" href="/credits.html">Credits</a></li>
+                    </ul>
+                </div>
+
+                <div class="blocks">
+                    <h3>Social Links</h3>
+                    <ul>
+                        <li><a class="footer-pages" href="https://www.facebook.com/brainpowersindia/">Facebook</a></li>
+                        <li><a class="footer-pages" href="https://www.instagram.com/brainpowersindia/">Instagram</a></li>
+                        <li><a class="footer-pages" href="https://www.youtube.com/@Brainpowersindia?sub_confirmation=1">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="/scripts/global.js"></script>
+
+</html>
