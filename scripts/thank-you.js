@@ -1,0 +1,1 @@
+const urlSearchParams=new URLSearchParams(window.location.search),paramValue=urlSearchParams.get("m");null!=paramValue&&(document.getElementById("thank-you-message").innerHTML=paramValue);
